@@ -1,0 +1,14 @@
+<view class='workbench-page'>
+  <view class="workbench-icon" bindtap="pending">
+    <image src="/images/invite.png"></image>
+    <text>待办理</text>
+  </view>
+  <view wx:if='{{roleType == "2"}}' class="workbench-icon" bindtap="report">
+    <image src="/images/jurisdiction.png"></image>
+    <text>上报</text>
+  </view>
+  <view wx:if='{{roleType == "1"}}' class="workbench-icon" bindtap="search">
+    <image src="/images/search.png"></image>
+    <text>查询</text>
+  </view>
+</view>

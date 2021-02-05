@@ -1,0 +1,48 @@
+<view class="rectifyDetail-page">
+  <view class="rectifyDetail-title title">考勤</view>
+  <view class="rectifyDetail-main">
+    <view class="r-m-name">姓名</view>
+    <input class="r-m-name-input" disabled="true" type="text" value="{{userName}}"></input>
+  </view>
+  <view class="rectifyDetail-main">
+    <view class="r-m-name">考勤地点</view>
+    <input class="r-m-name-input" value="{{userLocation}}" disabled="true" type="text"></input>
+  </view>
+
+
+  <view class="rectifyDetail-main">
+    <view class="r-m-name">考勤时间</view>
+    <!-- <input class="r-m-name-input" type="text" placeholder="请填写考勤时间"></input> -->
+    <view class="picker-cover">
+      <!-- <picker class="search-picker" mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="setTime">
+        <view>{{time}}</view>
+      </picker> -->
+      <input class="r-m-name-input" value="{{time}}" disabled="true" type="text"></input>
+      <!-- <text>选择</text> -->
+    </view>
+  </view>
+
+   
+
+  <view class="rectifyDetail-main">
+    <view>考勤拍照</view>
+    <view class="pic-list">
+    <view class="addPic pic-list-class" bindtap="addPic">
+    +
+    </view>
+    <image class="pic-list-class" mode="aspectFit" wx:for="{{picList}}" wx:key='*this' src="{{item}}"></image>
+    </view>
+  </view>
+
+  <view class="rectifyDetail-main">
+    <view>备注</view>
+    <textarea bindinput="getRemark" class="r-m-name-textarea" type='text' maxlength="30" placeholder="请填写备注(不超过30个汉字)">
+
+    </textarea>
+  </view>
+
+
+  <view bindtap="rectifyDetailSubmit" class="btn">
+    提交
+  </view>
+</view>

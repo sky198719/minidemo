@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/attendance/attendance",
+    "pages/message/message",
+    "pages/workbench/workbench",   
+    "pages/report/report",
+    "pages/register/register",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/rectifyDetail/rectifyDetail",
+    "pages/pending/pending",
+    "pages/searchResult/searchResult",
+    "pages/organization/organization",
+
+    
+    "pages/pendingDetail/pendingDetail",
+    "pages/doneDetail/doneDetail",
+    "pages/invite/invite",
+    "pages/authorization/authorization",
+    "pages/attendanceDetail/attendanceDetail"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "浦东街镇微城管",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "tabBar": {
+    "color": "#666",
+    "backgroundColor": "#FFF",
+    "selectedColor": "#E3403F",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/tabbar-news.png",
+        "iconPath": "images/tabbar-new.png",
+        "pagePath": "pages/message/message",
+        "text": "消息"
+      },
+      {
+        "selectedIconPath": "images/tabbar-works.png",
+        "iconPath": "images/tabbar-work.png",
+        "pagePath": "pages/workbench/workbench",
+        "text": "工作台"
+      },
+      {
+        "selectedIconPath": "images/tabbar-orgs.png",
+        "iconPath": "images/tabbar-org.png",
+        "pagePath": "pages/organization/organization",
+        "text": "组织"
+      },
+      {
+        "selectedIconPath": "images/tabbar-mys.png",
+        "iconPath": "images/tabbar-my.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

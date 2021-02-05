@@ -1,0 +1,39 @@
+.register-main{
+  margin-top:20rpx;
+  border-top:1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+  padding:0 20rpx;
+  box-sizing: border-box;
+  background: #fff;
+}
+.register-page .input-class{
+  border:none;
+  background:#fff;
+  border-radius: 0;
+  margin: 0;
+}
+.register-page .input-class:nth-child(2){
+  border-top:1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+}
+.register-page .input-class label{
+  width:100rpx;
+}
+.register-page .input-class input{
+  padding-left:100rpx;
+}
+.btn-class{
+  display: block;
+  width:90%;
+  margin:40rpx auto;
+}
+.btn-class button{
+  display: block;
+  width:100%;
+}
+.register-btn{
+  width:300rpx;
+  margin:0 auto;
+  font-size: 28rpx;
+  text-align: center;
+}

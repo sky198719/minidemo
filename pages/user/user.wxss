@@ -1,0 +1,66 @@
+.user-banner{
+  width:100%;
+  height:30vh;
+  background: #4188f2;
+  position: relative;
+  color:#fff;
+}
+.u-b-main{
+  position: absolute;
+  top:50rpx;
+  display: flex;
+  align-items: center;
+  padding:0 40rpx;
+  box-sizing: border-box;
+}
+.u-b-m-icon{
+  display: inline-block;
+  width:100rpx;
+  height:100rpx;
+  margin-right:20rpx;
+  border-radius: 50%;
+}
+.u-b-m-info view{
+  font-size: 30rpx;
+}
+.u-b-m-info .u-b-m-i-id{
+  margin-top:10rpx;
+  font-size: 24rpx;
+  color:#bfd2f8;
+}
+.u-b-image{
+  position: absolute;
+  bottom: 0;
+  height:40%;
+  width: 100%;
+}
+.user-fn{
+  width:100%;
+  margin-top:20rpx;
+}
+.u-f-search,.u-f-scanCode{
+  background:#fff;
+  width:100%;
+  margin-bottom: 20rpx;
+  display: flex;
+  padding:0 40rpx;
+  box-sizing: border-box;
+  height: 80rpx;
+  line-height: 80rpx;
+  align-items: center;
+}
+.u-f-s-icon{
+  display: inline-block;
+  width: 50rpx;
+  height:50rpx;
+  margin-right: 20rpx;
+}
+.quit{
+  width:100%;
+  height:100rpx;
+  line-height: 100rpx;
+  color:#fd848a;
+  text-align: center;
+  background: #fff;
+  margin-top:40rpx;
+}

@@ -1,0 +1,24 @@
+<view class="login-page">
+  <image src="/images/loading-bg_01.jpg" class="cover-banner">
+  </image>
+  <image class="cover-logo" src="/images/logo.png"></image>
+  <view class="cover-main">
+
+    <view class="input-class">
+      <image class="input-icon" src="/images/account.png"></image>
+      <input placeholder="请输入您的账号" type="number" bindinput="setUsername" />
+    </view>
+    <view class="input-class">
+      <image src="/images/password.png" class="input-icon"></image>
+      <input type="password" placeholder="请输入您的密码" bindinput="setPassword" />
+    </view>
+    <view class="btn-class btn" bindtap="login">
+      登录
+    </view>
+
+    <view class="register-class" bindtap="registerFn">
+     注册账号
+    </view>
+    <!-- <button bindtap="test" type='primary'>获取订阅消息授权</button> -->
+  </view>
+</view>

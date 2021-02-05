@@ -1,0 +1,10 @@
+<view class='organization-page'>
+  <view class="organization-icon">
+    <image src="/images/invite.png"></image>
+    <text>邀请</text>
+  </view>
+  <view class="organization-icon">
+    <image src="/images/jurisdiction.png"></image>
+    <text>权限管理</text>
+  </view>
+</view>
