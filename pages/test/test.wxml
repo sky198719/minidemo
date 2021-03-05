@@ -1,12 +1,3 @@
 <view class="test">
-  <view class="tab">
-    <ul>
-      <li class="{{currentTab == 1 ? 'current' : ''}}" data-tabid="1" bindtap="changeTab">选项卡一</li>
-      <li class="{{currentTab == 2 ? 'current' : ''}}" data-tabid="2" bindtap="changeTab">选项卡二</li>
-    </ul>
-    <div>
-      <div wx:if="{{currentTab == 1}}">内容一</div>
-      <div wx:if="{{currentTab == 2}}">内容二</div>
-    </div>
-  </view>
+  
 </view>
