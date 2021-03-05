@@ -1,0 +1,7 @@
+<view class="inputBox" id="{{id}}">
+  <label wx:if="{{labelShow}}">{{labelName}}</label>
+  <input type="{{mode}}" value="{{value}}" placeholder="{{placeholder}}" bindinput="postEvent" wx:if="{{mode == 'text' || mode == 'password' || mode == 'number'}}" />
+  <picker mode="{{mode}}" range="{{range}}" bindchange="postEvent" wx:if="{{mode == 'selector' || mode == 'date' || mode == 'time'}}">
+    <text>{{value}}</text>
+  </picker>
+</view>

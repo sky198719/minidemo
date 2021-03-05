@@ -1,0 +1,3 @@
+<view class="cameraIntegrate" id="{{id}}">
+  <button bindtap="postEvent">{{labelName}}</button>
+</view>

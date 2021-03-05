@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "消息",
-  "usingComponents": {
-    "alert-box": "/components/alert-box/alert-box"
-  },
-  "enablePullDownRefresh": true,
-  "onReachBottomDistance": 300
-}

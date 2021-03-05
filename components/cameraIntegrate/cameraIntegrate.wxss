@@ -1,0 +1,21 @@
+.cameraIntegrate{
+  
+}
+.cameraIntegrate button{
+  width:200rpx;
+  height:50rpx;
+  line-height:50rpx;
+  text-align:center;
+  background:#dddddd;
+  font-size:24rpx;
+  margin:0;
+  border-radius:0;
+}
+.cameraIntegrate image{
+  width:200rpx;
+  height:300rpx;
+}
+.cameraIntegrate video{
+  width:200rpx;
+  height:300rpx;
+}

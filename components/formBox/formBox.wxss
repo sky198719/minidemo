@@ -1,0 +1,32 @@
+.inputBox{
+  width:100%;
+  height:50rpx;
+}
+.inputBox label{
+  width:160rpx;
+  height:50rpx;
+  line-height:50rpx;
+  font-size:24rpx;
+  float:left;
+  text-align:right;
+}
+.inputBox input{
+  width:400rpx;
+  height:50rpx;
+  line-height:50rpx;
+  font-size:24rpx;
+  border:1px solid #dddddd;
+  box-sizing:border-box;
+  padding:0 10px;
+  float:left;
+}
+.inputBox picker{
+  width:400rpx;
+  height:50rpx;
+  line-height:50rpx;
+  font-size:24rpx;
+  border:1px solid #dddddd;
+  box-sizing:border-box;
+  padding:0 10px;
+  float:left;
+}

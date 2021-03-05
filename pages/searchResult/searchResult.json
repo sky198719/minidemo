@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "查询结果",
-  "usingComponents": {
-    "alert-box": "/components/alert-box/alert-box"
-  },
-  "onReachBottomDistance": 300
-}

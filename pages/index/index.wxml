@@ -1,0 +1,36 @@
+<view class="index">
+  <!-- 文本输入框 -->
+  <FormBox id="formBox1" labelName="文本输入框：" labelShow="{{false}}" mode="text" value="{{inputTextData}}" placeholder="请输入文本" bind:listenEvent="listenInputTextChange"></FormBox>
+  <!-- 密码输入框 -->
+  <FormBox id="formBox2" labelName="密码输入框：" labelShow="{{false}}" mode="password" value="{{inputPasswordData}}" placeholder="请输入密码" bind:listenEvent="listenInputPasswordChange"></FormBox>
+  <!-- 数字输入框 -->
+  <FormBox id="formBox3" labelName="数字输入框：" labelShow="{{false}}" mode="number" value="{{inputNumberData}}" placeholder="请输入数字" bind:listenEvent="listenInputNumberChange"></FormBox>
+  <!-- 文本下拉框 -->
+  <FormBox id="formBox4" labelName="文本下拉框：" labelShow="{{false}}" mode="selector" value="{{pickerSelectorData}}" range="{{pickerSelectorRange}}" bind:listenEvent="listenPickerSelectorChange"></FormBox>
+  <!-- 日期下拉框 -->
+  <FormBox id="formBox5" labelName="日期下拉框：" labelShow="{{false}}" mode="date" value="{{pickerDateData}}" bind:listenEvent="listenPickerDateChange"></FormBox>
+  <!-- 时间下拉框 -->
+  <FormBox id="formBox6" labelName="时间下拉框：" labelShow="{{false}}" mode="time" value="{{pickerTimeData}}" bind:listenEvent="listenPickerTimeChange"></FormBox>
+  <!-- 呼出相机 -->
+  <CameraIntegrate id="cameraIntegrate1" labelName="拍照" mode="image" sourceType="camera" bind:listenEvent="listenTakePhotoData"></CameraIntegrate>
+  <!-- 呼出相册 -->
+  <CameraIntegrate id="cameraIntegrate2" labelName="选择图片" mode="image" sourceType="album" count="5" bind:listenEvent="listenChoosePhotoData"></CameraIntegrate>
+  <!-- 呼出录像 -->
+  <CameraIntegrate id="cameraIntegrate3" labelName="拍摄录像" mode="video" camera="front" sourceType="camera" bind:listenEvent="listenTakeVideoData"></CameraIntegrate>
+  <!-- 呼出影片 -->
+  <CameraIntegrate id="cameraIntegrate4" labelName="选择录像" mode="video" sourceType="album" bind:listenEvent="listenChooseVideoData"></CameraIntegrate>
+  <!-- 呼出扫码 -->
+  <CameraIntegrate id="cameraIntegrate5" labelName="扫一扫" mode="scan" bind:listenEvent="listenScanData"></CameraIntegrate>
+  <!-- 显示加载框 -->
+  <button bindtap="showAlert">显示提示框</button>
+  <!-- 显示确认框 -->
+  <button bindtap="showConfirm">显示确认框</button>
+  <!-- 显示加载框 -->
+  <button bindtap="showLoading">显示加载框</button>
+  <!-- 获取用户位置信息 -->
+  <button bindtap="getUserLocation">获取用户位置信息</button>
+  <!-- 获取用户公开信息 -->
+  <button bindtap="getUserInfor" open-type="getUserInfo">获取用户公开信息</button>
+  <!-- 获取用户openid -->
+  <button bindtap="getUserOpenid">用户openid</button>
+</view>

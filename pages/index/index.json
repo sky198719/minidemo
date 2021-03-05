@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "组件案例",
+  "usingComponents": {
+    "FormBox":"../../components/formBox/formBox",
+    "CameraIntegrate":"../../components/cameraIntegrate/cameraIntegrate"
+  }
+}

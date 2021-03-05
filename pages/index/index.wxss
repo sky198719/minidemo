@@ -1,0 +1,28 @@
+#formBox1{
+  color:#ff0000;
+}
+#formBox2{
+  font-size:20rpx;
+}
+#formBox3{
+  font-weight:bold;
+}
+#formBox4{
+  color:#ff0000;
+}
+#formBox5{
+  font-size:20rpx;
+}
+#formBox6{
+  font-weight:bold;
+}
+button{
+  width:200rpx;
+  height:50rpx;
+  line-height:50rpx;
+  text-align:center;
+  background:#dddddd;
+  font-size:24rpx;
+  margin:0;
+  border-radius:0;
+}

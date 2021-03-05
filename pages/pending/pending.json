@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "待处理",
-  "usingComponents": {
-    "alert-box": "/components/alert-box/alert-box"
-  },
-  "enablePullDownRefresh": true,
-  "onReachBottomDistance": 300
-}
