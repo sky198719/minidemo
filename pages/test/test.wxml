@@ -1,3 +1,5 @@
 <view class="test">
-  
+  <view>
+    <button>测试openid</button>
+  </view>
 </view>
